@@ -45,6 +45,10 @@ a {
     font-weight: 600;
 }
 
+.navtabs:any-link {
+    color: black;
+}
+
 .church-introduction{
     font-weight: 500;
     margin: 0 3vw 2vh 5vw;
