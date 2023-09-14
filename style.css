@@ -83,7 +83,7 @@ a {
 .contacts {
     display: flex;
     flex-direction: column;
-    height: 90%;
+    height: 70%;
 }
 
 .top-contacts {
@@ -91,6 +91,7 @@ a {
     flex-direction: row;
     justify-content: center;
     gap:10%;
+    margin-bottom: 60px;
 }
 
 .contacts-container {
@@ -101,10 +102,21 @@ a {
 }
 
 .contact-us-title {
-    font-size: 4em;
-    font-weight: 550;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.5em;
+    font-weight: 500;
+    font-family:Hoefler Text;
     letter-spacing: 2px;
+}
+
+.welcoming-words {
+    font-size: 1.25em;
+    font-weight: 500;
+    font-family: Calibri;
+    letter-spacing: 1px;
+    padding: 15px 60px 30px 60px;
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 0, 0);
 }
 
 .contacts-means {
@@ -116,9 +128,65 @@ a {
 .contacts-means-block {
     display: flex;
     flex-direction: row;
+    padding:5px;
+}
+
+.contacts-means-name {
+    font-family: Tahoma;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.contact-means-info {
+    letter-spacing: 1px;
+    font-family: Century Gothic;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 3px;
+}
+
+.mail-link {
+    color:black;
+    text-decoration: underline;
 }
 
 .bottom-member-blocks {
+    padding-top: 30px;
+    margin-bottom: 50px;
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
+    gap:3vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.bottom-single-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    border-width: 2px;
+    padding:20px 60px 20px 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 0px rgb(0, 0, 0);
+}
+
+.contacts-block-title {
+    font-size: 1.2em;
+    color:rgb(0, 0, 0);
+    font-family: Tahoma;
+}
+
+.contacts-block-info {
+    padding-top: 5px;
+    color:rgb(0, 0, 0);
+    font-family:Century Gothic;
+}
+
+#email-in-block {
+    padding-left: 4px;
+    color:rgb(0, 0, 0);
+    font-family:Century Gothic;
 }
